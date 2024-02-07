@@ -4,7 +4,7 @@ Get-ChildItem -Force  -- to list all files in folder the hiddens one included
 git status -- to check the stagging area of the local repository 
 git add -- to add the file to stagging area 
 git rm --cached <file>  -- to remove a file from stagging area
-$ git rm --cached -r .   -- to remove all files from stagging area 
+$ git rm --cached -r .   -- to remove all files from stagging area
 git log -- to see all the commits of the repository 
 git diff file-name  -- to check the difference between the last commit and currently saved file 
 git checkout filenmae -- reverts back the changes save in the file to last commit on local repository 
