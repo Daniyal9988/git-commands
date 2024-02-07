@@ -4,5 +4,18 @@ Get-ChildItem -Force  -- to list all files in folder the hiddens one included
 git status -- to check the stagging area of the local repository 
 git add -- to add the file to stagging area 
 git rm --cached <file>  -- to remove a file from stagging area
+$ git rm --cached -r .   -- to remove all files from stagging area 
 git log -- to see all the commits of the repository 
+git diff file-name  -- to check the difference between the last commit and currently saved file 
+git checkout filenmae -- reverts back the changes save in the file to last commit on local repository 
+
+
+git remote add origin url-of-repository  -- to connect local repository to remote repository 
+git branch -M main  -- to rename the current main branch the default one to your own name   -M stands for --move
+git push -u origin main  -- to push to your remote repository   - u stands for --set-upstream
+git branch -M current-name new-name -- to change the name of the branch
+
+
+
+
 

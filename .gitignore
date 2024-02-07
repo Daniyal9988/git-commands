@@ -1,0 +1,6 @@
+.DS_Store 
+secret.txt 
+
+# this a comment 
+# *.txt to ignore all file with txt extension 
+#we can copy paste git ignore code form github creater in order to save time 
