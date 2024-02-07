@@ -1,0 +1,6 @@
+New-Item commands.txt -type file   -- to create a new file in command prompt
+code command.txt --to open the file in vs code
+Get-ChildItem -Force  -- to list all files in folder the hiddens one included 
+git status -- to check the stagging area of the local repository 
+git add -- to add the file to stagging area 
+
