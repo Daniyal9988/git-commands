@@ -15,6 +15,9 @@ git branch -M main  -- to rename the current main branch the default one to your
 git push -u origin main  -- to push to your remote repository   - u stands for --set-upstream
 git branch -M current-name new-name -- to change the name of the branch
 
+--how to remove git origin 
+git remote -v -- to check git origin 
+git remote remove origin -- to remove the origin 
 
 
 
